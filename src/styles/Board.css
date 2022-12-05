@@ -1,0 +1,60 @@
+.board {
+  margin: 30px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  font-size: x-large;
+  font-weight: 800;
+  letter-spacing: 5px;
+  color: rgb(122, 153, 252);
+}
+
+.board-rows {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.reset-button {
+  margin-top: 8px;
+  padding: 0.6rem;
+  width: 8rem;
+  cursor: pointer;
+  background-color: rgb(177, 194, 248);
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(86, 89, 92);
+  transform: scaleX(8px);
+  transition: 0.25s all;
+}
+
+.reset-button:active {
+  transform: scale(0.95);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.draw {
+  color: rgb(250, 65, 65);
+  font-size: large;
+  font-weight: bold;
+}
+
+.getStatus {
+  color: rgb(122, 153, 252);
+  font-size: large;
+  font-weight: bold;
+}
